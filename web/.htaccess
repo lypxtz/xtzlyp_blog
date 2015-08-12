@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule class_([0-9]{1,})$ /index.php?c=Index&m=index&pid=$1
+RewriteRule arc_([0-9]{1,})$ /index.php?c=Index&m=arc&pid=$1
+RewriteRule tag_([0-9]{1,})$ /index.php?c=Index&m=index&tagid=$1
+RewriteRule ly$ /index.php?c=Admin&m=index
+</IfModule>
+

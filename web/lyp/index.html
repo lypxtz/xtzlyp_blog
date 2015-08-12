@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+<head>
+<meta charset="utf-8">
+<title>解决方案</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<meta name="author" content="Creativusmouse" />
+<!-- CSS -->
+<link rel="stylesheet" href="/public/css/foundation.min.css">
+<link rel="stylesheet" href="/public/css/styles.css">
+<link rel="icon" href="/public/images/favicon.ico" />
+<link href="/public/plugins/titan/css/jquery.titanlighbox.html" rel="stylesheet">
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/modernizr.foundation.js"></script>
+<script src="/public/js/app.js"></script>
+
+<!-- THEMES PANEL -->
+<link rel="stylesheet" href="/public/themes_panel/farbtastic/farbtastic.css">
+<link rel="stylesheet" href="/public/themes_panel/themes_panel.css">
+<link rel="stylesheet" href="/public/css/colors.css">
+
+</head>
+<body  id="blue">
+<!-- HEADER -->
+<!-- HEADER -->
+<div id="header">
+  <div class="row">
+    <div class="three columns"> <a href="index-2.html" title="Proteus" id="logo"></a> </div>
+    <div class="nine columns">
+      <nav class="top-bar">
+        <ul>
+          <li class="name">
+            <h1><a href="#"></a></h1>
+          </li>
+          <li class="toggle-topbar"><a href="#"></a></li>
+          <!-- END RESPONSIVE NAVIGATION -->
+        </ul>
+        <section>
+          <ul class="right">
+            <li> <a href="/" class={dede:field name=typeid runphp="yes"}(@me=="")? @me="active":@me="";{/dede:field} >首页</a> </li>
+			{dede:channel type='top' row='10' currentstyle='<li class="has-dropdown" style="background: #5796C7;color: #FFF;"><a href="~typelink~">~typename~</a></li>'}   
+            <li class="has-dropdown"> <a href="[field:typeurl/]">[field:typename/]</a></li>
+			{/dede:channel} 
+            <li><a href="http://wx.ctnmit.com/" target="_blank">进入平台</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <!-- END NAVIGATION -->
+    <div class="shadow-down"></div>
+  </div>
+</div>
+<!--END HEADER --> 
+
+<!--END HEADER --> 
+<!-- PAGE HEADER -->
+
+<!-- END PAGE HEADER -->
+<div class="container main_content">
+  <div class="row" style="width:75%;">
+    <img src="/public/images/over.jpg" alt="" width="100%" >
+    
+  </div>
+</div>
+<!-- FOOTER -->
+{dede:include filename="footer.htm"/}
+
+
+<!-- END FOOTER -->  
+
+<!-- JAVASCRIPT --> 
+<script src="/public/js/jquery.min.js"></script> 
+<script src="/public/js/jquery.infieldlabel.min.js"></script> 
+<script src="/public/js/scripts.js"></script>
+<script src="/public/js/app.js"></script> 
+
+<!-- Titan Lightbox --> 
+<script src="/public/titan/js/prettify.js"></script> 
+<script src="/public/titan/js/jquery.titanlighbox.js"></script> <!-- Themes Panel --> 
+<script src="/public/themes_panel/farbtastic/farbtastic.js"></script> 
+<script src="/public/themes_panel/themes_panel.js"></script>
+</body>
+</html>
