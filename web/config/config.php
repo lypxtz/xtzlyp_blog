@@ -7,12 +7,12 @@ $config=array(
 /* 数据库配置*/
     'sql_type'               => 'mysql',     // 数据库类型
 	'sql_config'=>array(
-		    'db_host'               => '121.40.144.140', // 服务器地址
-		    'db_name'               => 'blog',          // 数据库名
-		    'db_user'               => 'root',      // 用户名
-		    'db_psw'                => 'xtzlyp',          // 密码
+		    'db_host'               => '***', // 服务器地址
+		    'db_name'               => '***',          // 数据库名
+		    'db_user'               => '***',      // 用户名
+		    'db_psw'                => '***',          // 密码
 		    'db_port'               => 3306,        // 端口
-		    'db_prefix'             => 'li_',  // 数据库表前缀
+		    'db_prefix'             => '***',  // 数据库表前缀
 			'dbcharset' 				=> 'utf8'   // 数据库表前缀
 		),
 /* 模板配置*/
